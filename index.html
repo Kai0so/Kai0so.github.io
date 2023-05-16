@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meu Portfólio</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -22,18 +25,36 @@
 
   <main>
     <section id="sobre">
-      <h2>Sobre Mim</h2>
-      <p>Sou um entusiasta de tecnologia desde criança e me formei em desenvolvimento WEB full stack pela Trybe. Tenho experiência em desenvolvimento utilizando as tecnologias HTML, CSS, JavaScript, React, MySQL, Node.js, TypeScript, MongoDB, Java, Python, GIT, Docker, Testes automatizados, e utilizo essas habilidades para criar soluções eficientes e inovadoras em meus projetos. Estou sempre em busca de novos desafios e oportunidades de aprendizado para continuar crescendo como profissional.</p>
+      <div class="about-container">
+        <h2 class="about-section-title">Sobre Mim</h2>
+        <div class="about-content">
+          <p>Sou um entusiasta de tecnologia desde criança e me formei em desenvolvimento WEB full stack pela Trybe.
+            Tenho experiência em desenvolvimento utilizando as tecnologias HTML, CSS, JavaScript, React, MySQL,
+            Node.js, TypeScript, MongoDB, Java, Python, GIT, Docker, Testes automatizados, e utilizo essas
+            habilidades para criar soluções eficientes e inovadoras em meus projetos. Estou sempre em busca de novos
+            desafios e oportunidades de aprendizado para continuar crescendo como profissional.</p>
+        </div>
+      </div>
     </section>
 
     <section id="projetos">
       <h2>Projetos</h2>
-      <div className="project-card">
+      <div class="project-card">
         <img src="/images/oddslogo.png" alt="Odds Burguer">
-        <div className="project-overlay">
+        <div class="project-overlay">
           <h3>Odds Burguer</h3>
           <p>Projeto de aplicação de delivery desenvolvido para hamburgueria</p>
           <a href="https://github.com/Kai0so/odds-burguer-app" target="_blank">Ver Projeto</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/images/trybelogo.png" alt="Trybe">
+        <div class="project-overlay">
+          <h3>Trybe</h3>
+          <p>Projetos desenvolvidos durante a minha capacitação na Trybe. Os projetos abordam os seguintes
+            conteúdos: Desenvolvimento Front-End, Desenvolvimento Back-End, Ciência da Computação.</p>
+          <a href="https://github.com/Kai0so?tab=repositories" target="_blank">Ver Projetos</a>
         </div>
       </div>
     </section>
@@ -41,11 +62,32 @@
 
     <section id="habilidades">
       <h2>Habilidades</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>Java</li>
-        <li>Python</li>
-      </ul>
+      <div class="skills">
+        <ul class="skills-list">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React.js</li>
+          <li>Node.js</li>
+          <li>TypeScript</li>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+          <li>Java</li>
+          <li>Python</li>
+          <li>Testes</li>
+          <li>Docker</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <div class="contact-buttons">
+        <a href="https://www.linkedin.com/in/kaioso/" target="_blank" class="contact-button">LinkedIn</a>
+        <a href="https://wa.me/5531983179623" target="_blank" class="contact-button">WhatsApp</a>
+        <a href="mailto:kaioaugustoalmeida.m@gmail.com" target="_blank" class="contact-button">E-mail</a>
+        <a href="https://github.com/Kai0so" target="_blank" class="contact-button">GitHub</a>
+      </div>
     </section>
   </main>
 

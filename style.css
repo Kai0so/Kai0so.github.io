@@ -248,8 +248,8 @@ ul.skills-list li {
 }
 
 .about-image {
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 15rem;
   object-fit: cover;
   border-radius: 50%;
   opacity: 0.95;
